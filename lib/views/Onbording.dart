@@ -1,5 +1,6 @@
 import 'package:amicons/amicons.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_svg_provider/flutter_svg_provider.dart';
 import 'package:introduction_screen/introduction_screen.dart';
 
 class Onbording extends StatelessWidget {
@@ -35,6 +36,11 @@ class Onbording extends StatelessWidget {
             ),
             body:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis lectus placerat, mattis arcu eget.",
+            image: Image(
+              width: 300,
+              height: 300,
+              image: Svg('assets/img/Work_From_Home.svg')
+            ),
           ),
           PageViewModel(
             titleWidget: Text(
