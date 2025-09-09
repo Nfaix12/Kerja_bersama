@@ -23,11 +23,6 @@ class Onbording extends StatelessWidget {
             ),
             body:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis lectus placerat, mattis arcu eget.",
-            // image: Image.asset(
-            //   "assets/img/Travels.svg",
-            //   height: 400,
-            //   width: 400,
-            // ),
           ),
           PageViewModel(
             titleWidget: Text(
@@ -40,11 +35,6 @@ class Onbording extends StatelessWidget {
             ),
             body:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis lectus placerat, mattis arcu eget.",
-            // image: Image.asset(
-            //   "assets/img/List_Is_Empty.svg",
-            //   height: 400,
-            //   width: 400,
-            // ),
           ),
           PageViewModel(
             titleWidget: Text(
@@ -57,7 +47,6 @@ class Onbording extends StatelessWidget {
             ),
             body:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis lectus placerat, mattis arcu eget.",
-            // image: Image.asset("assets/img/Hello.svg", height: 400, width: 400),
           ),
           PageViewModel(
             titleWidget: Text(
@@ -70,11 +59,6 @@ class Onbording extends StatelessWidget {
             ),
             body:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis lectus placerat, mattis arcu eget.",
-            // image: Image.asset(
-            //   "assets/img/Work_From_Home.svg",
-            //   height: 400,
-            //   width: 400,
-            // ),
           ),
           PageViewModel(
             titleWidget: Text(
@@ -87,11 +71,6 @@ class Onbording extends StatelessWidget {
             ),
             body:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis lectus placerat, mattis arcu eget.",
-            // image: Image.asset(
-            //   "assets/img/E-commerce.svg",
-            //   height: 400,
-            //   width: 400,
-            // ),
           ),
         ],
         onDone: () {
